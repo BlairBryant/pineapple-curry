@@ -17,6 +17,7 @@ const goodUsers = [
 // Your function here.
 
 
+
 // Test it
 const checkIfValid = checkUsers(goodUsers) // checkUsers is your function
 console.log('Should return true:', checkIfValid([
