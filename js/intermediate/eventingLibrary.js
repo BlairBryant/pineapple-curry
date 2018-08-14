@@ -6,3 +6,8 @@
 // z.on('growingOlder', () => console.log(`i'm now ${z.age}`))
 // z.age++
 // z.trigger('growingOlder')
+
+function myFunc(obj) {
+    obj.on = () => console.log('My age is ' + obj.age)
+    obj.trigger()
+}
